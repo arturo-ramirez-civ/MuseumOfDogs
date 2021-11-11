@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+    font-family: "nunito", sans-serif;
+}
+
+.blurb h2{
+    color: #ea1c2c;
+    font-weight:100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight:100;
+    font-size: 1.123rem;
+}
+
+/* Applied font to enitre mainNav class and navbar-brand  */
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#mainNavbar .nav-Link {
+    color: white;
+}
+/* Changes color to when you hover over nav links */
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+/* Applied font to enitre mainNav class */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+/* */
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
+
